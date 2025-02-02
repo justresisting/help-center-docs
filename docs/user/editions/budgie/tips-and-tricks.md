@@ -29,6 +29,12 @@ To restore Budgie's default panel settings, run the command below
 budgie-panel --reset --replace &
 ```
 
+To restart the Budgie panel and replace the current instance with a fresh one, run the command below
+
+```bash
+budgie-panel --replace &
+```
+
 After this you can press CTRL + D to close the terminal without closing the Budgie Panel process.
 
 > TODO: There's got to be more that we can add here
